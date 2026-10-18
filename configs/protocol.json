@@ -1,0 +1,16 @@
+{
+  "naive": {
+    "init": "random",
+    "max_iter": 500,
+    "tol": 1e-4
+  },
+  "optimized": {
+    "init_mode": "dual_proposal_hard",
+    "lazy_assignment": true,
+    "candidate_topk": 4,
+    "max_iter": 500,
+    "tol": 1e-4,
+    "sncd_kernel": "dot",
+    "fde_clip_mode": "lower"
+  }
+}
